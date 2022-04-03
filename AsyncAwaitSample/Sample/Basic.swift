@@ -26,7 +26,7 @@ extension Basic {
         print(str)
     }
     
-    static private func asyncCount(_ repeatCount: Int) async {
+    static public func asyncCount(_ repeatCount: Int) async {
         for i in 0..<repeatCount {
             print("asyncCount : \(i)")
             try? await Util.wait(1)

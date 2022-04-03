@@ -26,6 +26,13 @@ struct MainTopView: View {
                 Text("Async let sample")
             }
             .padding()
+            
+            Button(action: {
+                OnMainThread.sample()
+            }) {
+                Text("On main thread sample")
+            }
+            .padding()
         }
         
     }

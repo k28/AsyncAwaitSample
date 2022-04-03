@@ -17,6 +17,7 @@
 		E54F20B427F83E6300056CA9 /* AsyncAwaitSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54F20B327F83E6300056CA9 /* AsyncAwaitSampleUITestsLaunchTests.swift */; };
 		E5B390BA27F98A19001DCC31 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B390B927F98A19001DCC31 /* AsyncLet.swift */; };
 		E5B390BC27F98E79001DCC31 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B390BB27F98E79001DCC31 /* Util.swift */; };
+		E5B390BE27F99076001DCC31 /* OnMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B390BD27F99076001DCC31 /* OnMainThread.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		E54F20B327F83E6300056CA9 /* AsyncAwaitSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E5B390B927F98A19001DCC31 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		E5B390BB27F98E79001DCC31 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		E5B390BD27F99076001DCC31 /* OnMainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnMainThread.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E543B42F27F8404C00E07602 /* Basic.swift */,
 				E5B390B927F98A19001DCC31 /* AsyncLet.swift */,
 				E5B390BB27F98E79001DCC31 /* Util.swift */,
+				E5B390BD27F99076001DCC31 /* OnMainThread.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				E5B390BA27F98A19001DCC31 /* AsyncLet.swift in Sources */,
 				E54F209927F83E6200056CA9 /* MainTopView.swift in Sources */,
 				E5B390BC27F98E79001DCC31 /* Util.swift in Sources */,
+				E5B390BE27F99076001DCC31 /* OnMainThread.swift in Sources */,
 				E54F209727F83E6200056CA9 /* AsyncAwaitSampleApp.swift in Sources */,
 				E543B43027F8404C00E07602 /* Basic.swift in Sources */,
 			);
