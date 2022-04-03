@@ -33,6 +33,13 @@ struct MainTopView: View {
                 Text("On main thread sample")
             }
             .padding()
+            
+            Button(action: {
+                CancelAndException.sample()
+            }) {
+                Text("Exception ans cancel sample")
+            }
+            .padding()
         }
         
     }

@@ -18,6 +18,7 @@
 		E5B390BA27F98A19001DCC31 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B390B927F98A19001DCC31 /* AsyncLet.swift */; };
 		E5B390BC27F98E79001DCC31 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B390BB27F98E79001DCC31 /* Util.swift */; };
 		E5B390BE27F99076001DCC31 /* OnMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B390BD27F99076001DCC31 /* OnMainThread.swift */; };
+		E5B390C027F9927B001DCC31 /* CancelAndException.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B390BF27F9927B001DCC31 /* CancelAndException.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E5B390B927F98A19001DCC31 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		E5B390BB27F98E79001DCC31 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		E5B390BD27F99076001DCC31 /* OnMainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnMainThread.swift; sourceTree = "<group>"; };
+		E5B390BF27F9927B001DCC31 /* CancelAndException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAndException.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				E5B390B927F98A19001DCC31 /* AsyncLet.swift */,
 				E5B390BB27F98E79001DCC31 /* Util.swift */,
 				E5B390BD27F99076001DCC31 /* OnMainThread.swift */,
+				E5B390BF27F9927B001DCC31 /* CancelAndException.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				E5B390BA27F98A19001DCC31 /* AsyncLet.swift in Sources */,
 				E54F209927F83E6200056CA9 /* MainTopView.swift in Sources */,
+				E5B390C027F9927B001DCC31 /* CancelAndException.swift in Sources */,
 				E5B390BC27F98E79001DCC31 /* Util.swift in Sources */,
 				E5B390BE27F99076001DCC31 /* OnMainThread.swift in Sources */,
 				E54F209727F83E6200056CA9 /* AsyncAwaitSampleApp.swift in Sources */,
