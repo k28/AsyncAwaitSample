@@ -9,8 +9,25 @@ import SwiftUI
 
 struct MainTopView: View {
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            Text("Hello, world!")
+                .padding()
+
+            Button(action: {
+                Basic.asyncAwaitSample()
+            }) {
+                Text("Async Basic")
+            }
             .padding()
+            
+            Button(action: {
+                AsyncLet.sample()
+            }) {
+                Text("Async let sample")
+            }
+            .padding()
+        }
+        
     }
 }
 
