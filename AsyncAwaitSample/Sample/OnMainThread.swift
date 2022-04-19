@@ -23,12 +23,17 @@ extension OnMainThread {
     }
     
     static private func onMainThread(action: @escaping (() -> Void)) async {
-        return await withCheckedContinuation { continuation in
-            DispatchQueue.main.async {
-                action()
-                continuation.resume()
-            }
+        
+        await MainActor.run {
+            action()
         }
+        
+        // 下の方法でも良いけど、MainActor.run{}の方が簡単で良いと思う。
+//        return await withCheckedContinuation { continuation in
+//            DispatchQueue.main.async {
+//                continuation.resume()
+//            }
+//        }
     }
     
     
